@@ -1,0 +1,17 @@
+[
+ {
+  "path": "/packages/iot/ota_downloader", 
+  "ver": "latest", 
+  "name": "OTA_DOWNLOADER"
+ }, 
+ {
+  "path": "/packages/system/fal", 
+  "ver": "latest", 
+  "name": "FAL"
+ }, 
+ {
+  "path": "/packages/misc/samples/kernel_samples", 
+  "ver": "latest", 
+  "name": "KERNEL_SAMPLES"
+ }
+]

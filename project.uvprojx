@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER, STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>.;rt-thread\include;applications;board;board\CubeMX_Config\Inc;board\ports;libraries\HAL_Drivers;libraries\HAL_Drivers\config;libraries\HAL_Drivers\drv_flash;packages\fal-latest\inc;packages\ota_downloader-latest;rt-thread\libcpu\arm\common;rt-thread\libcpu\arm\cortex-m3;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\spi;rt-thread\components\drivers\include;rt-thread\components\drivers\spi\sfud\inc;rt-thread\components\drivers\include;rt-thread\components\finsh;rt-thread\components\utilities\ymodem;libraries\STM32F1xx_HAL\CMSIS\Device\ST\STM32F1xx\Include;libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Inc;libraries\STM32F1xx_HAL\CMSIS\Include</IncludePath>
+              <IncludePath>.;rt-thread\include;applications;board;board\CubeMX_Config\Inc;board\ports;libraries\HAL_Drivers;libraries\HAL_Drivers\config;libraries\HAL_Drivers\drv_flash;packages\fal-latest\inc;packages\kernel_samples-latest;packages\ota_downloader-latest;rt-thread\libcpu\arm\common;rt-thread\libcpu\arm\cortex-m3;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\spi;rt-thread\components\drivers\include;rt-thread\components\drivers\spi\sfud\inc;rt-thread\components\drivers\include;rt-thread\components\finsh;rt-thread\components\utilities\ymodem;libraries\STM32F1xx_HAL\CMSIS\Device\ST\STM32F1xx\Include;libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Inc;libraries\STM32F1xx_HAL\CMSIS\Include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -620,6 +620,86 @@
               <FileName>fal_flash_sfud_port.c</FileName>
               <FileType>1</FileType>
               <FilePath>packages\fal-latest\samples\porting\fal_flash_sfud_port.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>kernel-samples</GroupName>
+          <Files>
+            <File>
+              <FileName>thread_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\thread_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>semaphore_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\semaphore_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>mutex_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\mutex_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>mailbox_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\mailbox_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>event_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\event_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>msgq_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\msgq_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\timer_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>dynmem_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\dynmem_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>memp_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\memp_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>idlehook_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\idlehook_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>interrupt_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\interrupt_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>priority_inversion.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\priority_inversion.c</FilePath>
+            </File>
+            <File>
+              <FileName>timeslice_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\timeslice_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>scheduler_hook.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\scheduler_hook.c</FilePath>
+            </File>
+            <File>
+              <FileName>producer_consumer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\kernel_samples-latest\producer_consumer.c</FilePath>
             </File>
           </Files>
         </Group>
